@@ -1,0 +1,6 @@
+pesanan = input("masukkan daftar pesanan : ")
+restoran= pesanan.split()
+print("daftar pesanan: ", restoran)
+nambah= input("masukkan daftar pesanan yang ingin ditambahkan: ")
+restoran.append(nambah)
+print ("hasil penambahan pada daftar pesanan: ", restoran)
